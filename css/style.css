@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  .clearfix::after {
-      content: "";
-      display: table;
-      clear: both;
-  }  
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}    
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -55,6 +61,15 @@ h5 {
 
 p {
     font-size: 16px;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 24px;
+}
+
+ul {
+    padding-bottom: 36px;
 }
 
 .container_large {
@@ -214,3 +229,20 @@ header .no_padding_left {
     margin-right: 48px;
     display: inline-block;
 }
+
+.box {
+    min-height: 800px;
+    margin: 24px;
+    border: 1px solid #637381;
+    padding: 12px 16px;
+}
+
+.box h5 {
+    padding-top: 36px;
+    padding-bottom: 22px;
+}
+
+
+
+
+
