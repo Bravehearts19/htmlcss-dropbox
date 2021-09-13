@@ -41,6 +41,7 @@ h1 {
 
 h2 {
     font-size: 40px;
+    padding-bottom: 32px;
 }
 
 h3 {
@@ -73,6 +74,14 @@ p {
     padding: 12px 16px;
     color: white;
     text-decoration: none;
+}
+
+.button_white {
+    background-color: white;
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
 }
 
 .button_blue_padding_special {
@@ -195,4 +204,13 @@ header .no_padding_left {
 
 .fa-arrow-down {
     font-size: 40px;
+}
+
+.margin_top_for_container {
+    margin-top: 120px;
+}
+
+.div_input {
+    margin-right: 48px;
+    display: inline-block;
 }
