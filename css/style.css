@@ -115,7 +115,7 @@ ul {
 }
 
 .button_blue_padding_special {
-    padding: 0 16px;
+    padding: 3px 16px;
 }
 
 .nav_a {
@@ -536,13 +536,28 @@ border-bottom: 1px solid #63738177;
 
 .text_gray-opacity {
     color: #8fa1b3ef;
-    font-size: 12px;
+    font-size: 13px;
+    padding-bottom: 60px;
+}
+
+.font_size_14 {
+    font-size: 14px;
 }
 
 .text_gray-opacity::before {
     content: "";
     display: block;
-    width: 100px;
+    width: 140px;
     height: 1px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     background-color: #8fa1b3ef;
+}
+
+.background_black .container_large .row ul li h3 {
+    font-weight: 800;
+}
+
+.background_black .container_large .row ul li p {
+    font-weight: 500;
 }
