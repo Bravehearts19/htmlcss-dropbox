@@ -10,6 +10,11 @@
     clear: both;
 }  
 
+.row_table {
+    margin-left: -24px;
+    margin-right: -24px;
+}
+
 .row::after {
     content: "";
     display: table;
@@ -89,6 +94,11 @@ ul {
     padding: 12px 16px;
     color: white;
     text-decoration: none;
+}
+
+.button_blue_block {
+    display: block;
+    text-align: center;
 }
 
 .button_white {
@@ -172,7 +182,15 @@ header .no_padding_left {
 }
 
 .col_3_9_box {
-    width: calc(100% / 9 * 3);
+    padding: 0 24px;
+}
+
+.col_4_9_row {
+    padding: 0 24px;
+}
+
+.col_5_9_row {
+    padding: 0 24px;
 }
 
 .col4su9 {
@@ -240,9 +258,12 @@ header .no_padding_left {
 }
 
 .box {
-    min-height: 1050px;
-    border: 1px solid #637381;
+    border: 1px solid #63738177;
     padding: 12px 16px;
+}
+
+.box_min_height {
+    min-height: 1000px;
 }
 
 .box h5 {
@@ -259,7 +280,7 @@ header .no_padding_left {
     display: block;
     height: 1px;
     width: 18%;
-    background-color: #637381;
+    background-color: #63738177;
     margin-top: 32px;
 }
 
@@ -272,7 +293,7 @@ header .no_padding_left {
     display: block;
     height: 1px;
     width: calc(100% + 16px * 2);
-    background-color: #637381;
+    background-color: #63738177;
     margin: 12px -16px 0;
 }
 
@@ -291,9 +312,73 @@ header .no_padding_left {
     color: #0061FF;
 }
 
+.list_style_check {
+    list-style-type: url();
+}
 
+.text_small {
+    font-size: 14px;
+}
 
+.square_container_text {
+    float: left;
+    min-height: 200px;
+    width: 38.46%;
+}
 
+.square_container_text {
+    float: left;
+    min-height: 200px;
+    width: calc((100% - 38.46%) / 2);
+}
 
+.square {
+    width: 50%;
+    float: left;
+    height: calc((100vw - 38.46vw) / 4 -4px);
+}
 
+img {
+    width: 100%;
+}
 
+.box_enterprise {
+    margin-top: 48px;
+    position: relative;
+    margin-bottom: 124px;
+}
+
+.box_enterprise h3 {
+    display: inline-block;
+    padding-bottom: 24px;
+}
+
+.box_enterprise_link a {
+    padding: 12px 36px;
+}
+
+.box_enterprise_link {
+    position: absolute;
+    display: inline-block;
+    right: 16px;
+    top: 78px;
+}
+
+.box_enterprise .text_small {
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.row_table article {
+    padding-top: 32px;
+}
+
+.row_table article p {
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.box_business {
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
