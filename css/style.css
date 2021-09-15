@@ -30,10 +30,6 @@ main {
     margin-top: 78px;
 }
 
-footer {
-
-}
-
 nav {
     position: fixed;
     width: 100%;
@@ -97,6 +93,15 @@ ul {
     text-decoration: none;
 }
 
+.button_blue:hover {
+    background-color: #5897fc;
+}
+
+.button_blue:active {
+    background-color: #003ea1;
+    text-decoration: underline;
+}
+
 .button_blue_block {
     display: block;
     text-align: center;
@@ -110,6 +115,15 @@ ul {
     border: 2px solid black;
 }
 
+.button_white:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.button_white:active {
+    background-color: rgb(182, 182, 182);
+    text-decoration: underline;
+}
+
 .button_blue_padding_special {
     padding: 3px 16px;
 }
@@ -119,6 +133,10 @@ ul {
     text-decoration: none;
     color: black;
     vertical-align: middle;
+}
+
+.nav_a:hover {
+    text-decoration: underline;
 }
 
 header img {
@@ -285,6 +303,10 @@ header .no_padding_left {
     margin-top: 32px;
 }
 
+.text_link_in_box a:hover {
+    text-decoration: none;
+}
+
 .text_title_in_box {
     text-align: center;
 }
@@ -311,6 +333,10 @@ header .no_padding_left {
 
 .text_blue {
     color: #0061FF;
+}
+
+.text_blue:hover {
+    text-decoration: none;
 }
 
 .list_style_check {
@@ -501,17 +527,45 @@ padding-bottom: 48px;
 border-bottom: 1px solid #63738177;
 }
 
-.box_questions p {
+.accordion_item {
     padding-top: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid #63738177;
-    font-weight: 900;
-    position: relative;
 }
 
-.box_questions p i {
+.accordion_item h5 {
+    font-weight: 900;
+    position: relative;
+    padding-right: 90px;
+}
+
+.accordion_item_content {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.accordion_item:focus {
+    border-top: 3px solid #63738177;
+    border-bottom: 3px solid #63738177;
+    background-color:  rgb(250, 250 ,250);
+}
+
+.accordion_item:focus .accordion_item_content {
+    height: 197px;
+    overflow: auto;
+    padding-top: 24px;
+}
+
+.accordion_item_icon {
     position: absolute;
     right: 32px;
+    transform: rotate(0deg);
+    transition: transform 0.4s ease;
+}
+
+.accordion_item:focus .accordion_item_icon {
+    transform: rotate(180deg);
 }
 
 .background_black {
