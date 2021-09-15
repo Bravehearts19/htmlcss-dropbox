@@ -327,7 +327,8 @@ header .no_padding_left {
     width: 38.46%;
     padding: 32px 32px 0;
     background-color: #edf1f1;
-    overflow: scroll;
+    max-height: 100%;
+    overflow: auto;
 }
 
 .square_container_images {
