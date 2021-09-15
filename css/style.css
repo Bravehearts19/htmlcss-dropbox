@@ -26,10 +26,6 @@ body {
     font-size: 16px;
 }
 
-header {
-
-}
-
 main {
     margin-top: 78px;
 }
@@ -331,6 +327,7 @@ header .no_padding_left {
     width: 38.46%;
     padding: 32px 32px 0;
     background-color: #edf1f1;
+    overflow: scroll;
 }
 
 .square_container_images {
@@ -379,7 +376,6 @@ header .no_padding_left {
 .square_container {
     background-color: #edf1f1;
     height: calc( ((100vw - 38.46vw) / 4 - 4px) * 2);
-    overflow: auto;
 }
 
 .filter_invert {
@@ -439,7 +435,7 @@ svg {
 
 .square_green {
     background-color: rgb(100, 155, 100);
-    border: 10px solid rgba(100, 155, 100, 0.4)
+    border: 10px solid rgb(174, 216, 174)
 }
 
 .square_dark_red {
