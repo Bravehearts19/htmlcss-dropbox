@@ -621,13 +621,13 @@ border-bottom: 1px solid #63738177;
     margin-left: -10px;
 }
 
-.footer_link_margin_negative li a {
+.footer_link_margin_negative a {
     font-weight: 500;
     text-decoration: none;
     padding: 10px;
     color: white;
 }
 
-.footer_link_margin_negative li a:hover {
+.footer_link_margin_negative a:hover {
     text-decoration: underline;
 }
